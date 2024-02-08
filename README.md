@@ -4,7 +4,7 @@ I learn tailwindcss and this is a second projet.
 
 ## Screenshot attendu
 
-![Logo](https://github.com/Zyrass/Saasy-Vue3/blob/main/images/logo.png?raw=true)
+![Logo](https://github.com/Zyrass/Saasy-Vue3/blob/main/screenshots/saasy_desktop.jpg?raw=true)
 
 ## Vue 3 + TypeScript + Vite
 
