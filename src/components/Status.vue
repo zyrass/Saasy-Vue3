@@ -19,7 +19,7 @@
                 <span>Overdue invoices</span>
                 <span class="text-red-500">+12.61%</span>
             </div>
-            <p class="text-4xl ml-8">$405,091.00</p>
+            <p class="text-4xl ml-8">$12,101.00</p>
         </div>
 
         <!-- N°3 -->
@@ -30,7 +30,7 @@
                 <span>Outstanding invoces</span>
                 <span>-3.25%</span>
             </div>
-            <p class="text-4xl ml-8">$405,091.00</p>
+            <p class="text-4xl ml-8">$205,222.00</p>
         </div>
 
         <!-- N°4 -->
@@ -41,7 +41,7 @@
                 <span>Expensives</span>
                 <span class="text-red-500">+5.15%</span>
             </div>
-            <p class="text-4xl ml-8">$405,091.00</p>
+            <p class="text-4xl ml-8">$22,250.00</p>
         </div>
     </section>
 </template>
