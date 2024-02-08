@@ -1,7 +1,18 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import MyHeader from './components/MyHeader.vue';
+</script>
 
 <template>
-    <h1 class="m-4 py-4 px-8 text-2xl">Bonjour SAASY</h1>
+    <div 
+    class="min-h-screen w-full bg-gradient-to-r from-sky-500 to-purple-500 p-8"
+    >
+      <article class="container bg-white min-h-screen rounded-2xl">
+        <MyHeader />
+      </article>
+    </div>
+
+
+    
 </template>
 
 <style scoped></style>
