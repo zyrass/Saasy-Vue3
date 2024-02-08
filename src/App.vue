@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import MyHeader from './components/MyHeader.vue';
+import MyNavbar from './components/MyNavbar.vue';
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import MyHeader from './components/MyHeader.vue';
     >
       <article class="container bg-white min-h-screen rounded-2xl">
         <MyHeader />
+        <MyNavbar />
       </article>
     </div>
 
