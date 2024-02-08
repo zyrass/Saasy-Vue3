@@ -1,5 +1,5 @@
 <template>
-    <header class="h-16 grid grid-cols-3 items-center">
+    <header class="h-24 grid grid-cols-3 items-center">
         <div
             class="bg-[url('./assets/images/logo.png')] size-8 bg-cover ml-8"
         ></div>
