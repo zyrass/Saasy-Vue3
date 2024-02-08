@@ -2,9 +2,15 @@
 
 I learn tailwindcss and this is a second projet.
 
-## Screenshot attendu
+## Screenshots
 
-![Logo](https://github.com/Zyrass/Saasy-Vue3/blob/main/screenshots/saasy_desktop.jpg?raw=true)
+### Attendue
+
+![Maquette attendue](https://github.com/Zyrass/Saasy-Vue3/blob/main/screenshots/saasy_desktop.jpg?raw=true)
+
+### Ma réalisation
+
+![Maquette attendue](https://github.com/Zyrass/Saasy-Vue3/blob/main/screenshots/saasy_desktop_result.png?raw=true)
 
 ## Vue 3 + TypeScript + Vite
 
