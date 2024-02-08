@@ -2,6 +2,7 @@
 import MyHeader from './components/MyHeader.vue';
 import MyNavbar from './components/MyNavbar.vue';
 import Status from './components/Status.vue';
+import Activity from './components/Activity.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Status from './components/Status.vue';
         <MyHeader />
         <MyNavbar />
         <Status />
+        <Activity />
       </article>
     </div>
 
