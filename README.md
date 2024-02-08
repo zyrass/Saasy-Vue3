@@ -1,5 +1,7 @@
 # SAASY - Tailwindcss
 
+I learn tailwindcss and this is a second projet.
+
 ## Screenshot attendu
 
 ![Logo](https://github.com/Zyrass/Saasy-Vue3/blob/main/images/logo.png?raw=true)
