@@ -10,7 +10,10 @@ I learn tailwindcss and this is a second projet.
 
 ### Ma réalisation
 
-![Maquette attendue](https://github.com/Zyrass/Saasy-Vue3/blob/main/screenshots/saasy_desktop_result.png?raw=true)
+![Menu Ouvert](https://github.com/Zyrass/Saasy-Vue3/blob/main/screenshots/saasy_menu_open_result.png?raw=true)
+![Version Mobile](https://github.com/Zyrass/Saasy-Vue3/blob/main/screenshots/saasy_mobile_result.png?raw=true)
+![Version Tablette](https://github.com/Zyrass/Saasy-Vue3/blob/main/screenshots/saasy_tablet_result.png?raw=true)
+![Version Bureau](https://github.com/Zyrass/Saasy-Vue3/blob/main/screenshots/saasy_desktop_result.png?raw=true)
 
 ## Vue 3 + TypeScript + Vite
 
