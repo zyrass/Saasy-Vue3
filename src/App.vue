@@ -7,9 +7,9 @@ import Activity from './components/Activity.vue';
 
 <template>
     <div 
-    class="container min-h-screen w-full bg-gradient-to-r from-sky-500 to-purple-500 p-8"
+    class="container"
     >
-      <article class=" bg-white min-h-screen rounded-2xl">
+    <article class="bg-white min-h-screen rounded-2xl">
         <MyHeader />
         <MyNavbar />
         <Status />
