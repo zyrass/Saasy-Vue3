@@ -8,19 +8,21 @@
             <i v-if="state.openMenu" class="fa-solid fa-xmark"></i>
 
             <!-- Menu exclusivement sur mobile -->
-            <div
-                v-if="state.openMenu"
-                class="absolute sm:hidden top-24 left-0 h-64 w-full bg-slate-100 border-b-2 border-t-1 border-gray-200 shadow-md transition-all"
-            >
-                <ul
-                    class="flex flex-col py-8 gap-y-4 items-center hover:*:text-sky-500 cursor-pointer transition-all *:py-1 font-bold"
+            <Transition appear mode="out-in">
+                <div
+                    v-if="state.openMenu"
+                    class="absolute sm:hidden top-24 left-0 h-64 w-full bg-slate-100 border-b-2 border-t-1 border-gray-200 shadow-md transition-all"
                 >
-                    <li>Home</li>
-                    <li>Invoices</li>
-                    <li>Clients</li>
-                    <li>Expenses</li>
-                </ul>
-            </div>
+                    <ul
+                        class="flex flex-col py-8 gap-y-4 items-center hover:*:text-sky-500 cursor-pointer transition-all *:py-1 font-bold"
+                    >
+                        <li>Home</li>
+                        <li>Invoices</li>
+                        <li>Clients</li>
+                        <li>Expenses</li>
+                    </ul>
+                </div>
+            </Transition>
         </div>
         <div
             class="bg-[url('./assets/images/logo.png')] size-8 bg-cover ml-8"
@@ -65,4 +67,16 @@ watch(
 );
 </script>
 
-<styles scoped></styles>
+<style scoped>
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
+    transform: translateX(-6rem);
+}
+.v-enter-active {
+    transition: all 0.6s ease-in-out;
+}
+.v-enter-to {
+    opacity: 1;
+}
+</style>
