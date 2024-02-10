@@ -6,19 +6,14 @@ import Activity from './components/Activity.vue';
 </script>
 
 <template>
-    <div 
-    class="container"
-    >
-    <article class="bg-white min-h-screen rounded-2xl">
-        <MyHeader />
-        <MyNavbar />
-        <Status />
-        <Activity />
-      </article>
+    <div class="container">
+        <article class="bg-white min-h-screen rounded-2xl">
+            <MyHeader />
+            <MyNavbar />
+            <Status />
+            <Activity />
+        </article>
     </div>
-
-
-    
 </template>
 
 <style scoped></style>
